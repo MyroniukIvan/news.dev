@@ -20,7 +20,7 @@ const Tabs = ({ handleGridClick, handleListClick }: Props) => {
     <nav
       className={`${recursive} gap-6 pb-28 italic pt-4 flex justify-center max-md:gap-3 max-sm:gap-1 max-sm:flex-col max-sm:place-items-center max-md:flex-col max-md:place-items-center max-lg:flex-col max-lg:place-items-center`}
     >
-      <div className={"flex gap-3"}>
+      <div className={"flex gap-3 max-sm:hidden"}>
         <Image
           className={"cursor-pointer"}
           onClick={handleListClick}
